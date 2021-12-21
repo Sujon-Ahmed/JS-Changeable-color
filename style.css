@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.panel-box {
+    position: fixed;
+    height: 110px;
+    width: 150px;
+    top: 150px;
+    left: -150px;
+    background: #555555;
+    transition: 0.3s ease-in-out;
+}
+#controlPanel.controlBtnActive {
+    left: 0;
+}
+.color-box {
+    padding: 10px;
+}
+.color-box span {
+    height: 30px;
+    width: 30px;
+    display: block;
+    /* background: red; */
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.color-box span.red-color {
+    background: red;
+    border-radius: 50%;
+}
+.color-box span.green-color {
+    background: green;
+    border-radius: 50%;
+}
+.color-box span.blue-color {
+    background: blue;
+    border-radius: 50%;
+}
+.color-box span.yellow-color {
+    background: yellow;
+    border-radius: 50%;
+}
+.color-box span.pink-color {
+    background: pink;
+    border-radius: 50%;
+}
+.color-box span.violet-color {
+    background: violet;
+    border-radius: 50%;
+}
+.red-color-bar .header-area .container h1 {
+    color: red;
+}
+.green-color-bar .header-area .container h1 {
+    color: green;
+}
+.blue-color-bar .header-area .container h1 {
+    color: blue;
+}
+.yellow-color-bar .header-area .container h1 {
+    color: yellow;
+}
+.pink-color-bar .header-area .container h1 {
+    color: pink;
+}
+.violet-color-bar .header-area .container h1 {
+    color: violet;
+}
+/* control-btn style */
+.control-btn {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #555555;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0 7px 7px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1 {
+    font-size: 5rem;
+}
